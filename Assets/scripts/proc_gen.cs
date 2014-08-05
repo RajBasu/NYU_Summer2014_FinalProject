@@ -24,7 +24,7 @@ public class proc_gen : MonoBehaviour {
 
 			
 			Instantiate( prefabtoSpawn, new Vector3 (Random.Range (0,spawnRadius * 12), Random.Range (0,spawnRadius), 0), 
-			            Quaternion.identity );
+			            Quaternion.Euler (0,90,0) ); // rotates prefabs 90º
 			counter ++; // add 1 to counter after each loop
 		}
 	

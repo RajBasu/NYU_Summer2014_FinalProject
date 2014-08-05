@@ -3,6 +3,8 @@ using System.Collections;
 
 public class CameraTrigger : MonoBehaviour {
 
+
+
 	public GameObject stopper;
 	public Transform Cam; //assign in unity inspector
 	public Transform Door; //assign in unity inspector
